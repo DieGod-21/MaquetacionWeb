@@ -20,3 +20,4 @@ Este es un proyecto de maquetación de una tienda en línea utilizando HTML y Bo
 - Diseño adaptable a móviles
 
 ### Vista previa del sitio:
+🔗 Sitio en línea: [https://diegod-21.github.io/MaquetacionWeb/](https://diegod-21.github.io/MaquetacionWeb/)
