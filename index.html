@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tienda – Carousel</title>
+  <title>Tienda - Carousel</title>
   <!-- Bootstrap CSS -->
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -77,17 +77,12 @@
 
   <!-- ========== CUERPO PRINCIPAL ========== -->
   <div class="container">
-    <div class="row">
-      <!-- Columna izquierda: categorías -->
-      <aside class="col-sm-3 mb-4">
-        <h5>Categorías</h5>
-        <ul class="list-group">
-          <li class="list-group-item">Categoría 1</li>
-          <li class="list-group-item">Categoría 2</li>
-          <li class="list-group-item">Categoría 3</li>
-          <li class="list-group-item">Categoría 4</li>
-        </ul>
-      </aside>
+        <div class="row">
+            <!-- Columna de categorías con mejor diseño -->
+        <div class="col-md-3 mb-4 mb-md-0" id="categorias">
+                <!-- Script para renderizar productos -->
+        </div>
+    
 
       <!-- Columna derecha: productos -->
 <section class="col-sm-9">
@@ -158,6 +153,7 @@
         console.error("Error al cargar productos:", error);
         contenedor.innerHTML = '<div class="alert alert-danger">No se pudieron cargar los productos.</div>';
       });
-  </script>
-</body>
+    </script>
+    <script src="index.js"></script>
+  </body>
 </html>
